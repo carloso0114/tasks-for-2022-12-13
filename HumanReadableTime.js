@@ -25,3 +25,4 @@ function humanReadable (timeinSeconds) {
   return `${hours}:${minutes}:${seconds}`;
 }
 
+console.log(humanReadable(359999))
